@@ -11,10 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.lazy.LazyVerticalGrid
-import androidx.compose.material.Text
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.tooling.preview.Preview
 
 import com.skinvent.learningcomposable.ui.theme.MyComposeApplicationTheme
 
@@ -46,8 +44,9 @@ fun Grids (){
 LazyVerticalGrid(
     columns = GridCells.Adaptive(minSize = 128.dp)
 ) {
-items(texts){
+items(){
 Greeting()
              }
  }
          }
+         
