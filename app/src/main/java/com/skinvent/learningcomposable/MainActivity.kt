@@ -48,8 +48,10 @@ fun Greeting(modifier: Modifier = Modifier) {
 @Composable 
 fun itemer (){
     Row{
-       Image( painter = painterResource (R.mipmap.ic_launcher) , 
-       modifier = Modifier.size(70dp)) 
+       Image(
+            painter = painterResource(R.mipmap.ic_launcher),
+            contentDescription = "Contact profile picture",
+        )
     }
     Column{
         Text(text="Hello this Skinventions")
