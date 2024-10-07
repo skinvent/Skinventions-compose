@@ -15,6 +15,10 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 
 import com.skinvent.learningcomposable.ui.theme.MyComposeApplicationTheme
 
@@ -44,7 +48,8 @@ fun Greeting(modifier: Modifier = Modifier) {
 @Composable 
 fun itemer (){
     Row{
-       Image( painter = painterResource (R.mipmap.ic_launcher)) 
+       Image( painter = painterResource (R.mipmap.ic_launcher) , 
+       modifier = Modifier.size(70dp)) 
     }
     Column{
         Text(text="Hello this Skinventions")
