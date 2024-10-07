@@ -11,7 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Row
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 import com.skinvent.learningcomposable.ui.theme.MyComposeApplicationTheme
@@ -25,7 +27,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background) {
-                    Grids()
+                    itemer()
                 }
             }
         }
@@ -40,13 +42,17 @@ fun Greeting(modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 
 @Composable 
-fun Grids (){
-LazyVerticalGrid(
-    columns = GridCells.Adaptive(minSize = 128.dp)
-) {
-items(){
-Greeting()
-             }
- }
-         }
+fun itemer (){
+    Row{
+       Image( painter = painterResource (R.mipmap.ic_launcher)
+        contentDescription = "Skinventions Painter Test"
+        ) 
+    }
+    Column{
+        Text(text="Hello this Skinventions")
+        Text(text="Learning Jetpack Compose")
+    }
+    
+    
+}
          
