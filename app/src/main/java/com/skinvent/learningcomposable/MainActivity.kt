@@ -45,7 +45,7 @@ fun Greeting(modifier: Modifier = Modifier) {
 fun itemer (){
     Row{
        Image( painter = painterResource (R.mipmap.ic_launcher)
-        , contentDescription = "Skinventions Painter Test",
+        ,
         ) 
     }
     Column{
