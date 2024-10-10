@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/Skinventions-compose/app/src/main/java/com/skinvent/learningcomposable/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 60,
+          "index": 1562,
+          "line": 45
+        },
+        "start": {
+          "column": 60,
+          "index": 1562,
+          "line": 45
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/Skinventions-compose/app/src/main/java/com/skinvent/learningcomposable/MainActivity.kt"
+}

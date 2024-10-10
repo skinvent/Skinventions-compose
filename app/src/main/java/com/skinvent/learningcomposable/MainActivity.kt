@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 fun itemer (){
     Row{
        Image(
-            painter = painterResource(R.mipmap.ic_launcher),
+            painter = painterResource(R.drawable.googleillus),
             contentDescription = "Hello",
         )
     }
