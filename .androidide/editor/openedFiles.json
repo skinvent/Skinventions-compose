@@ -4,17 +4,32 @@
       "file": "/storage/emulated/0/Skinventions-compose/app/src/main/java/com/skinvent/learningcomposable/MainActivity.kt",
       "selection": {
         "end": {
-          "column": 60,
-          "index": 1562,
-          "line": 45
+          "column": 48,
+          "index": 1808,
+          "line": 38
         },
         "start": {
-          "column": 60,
-          "index": 1562,
-          "line": 45
+          "column": 48,
+          "index": 1808,
+          "line": 38
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/Skinventions-compose/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 68,
+          "index": 1203,
+          "line": 54
+        },
+        "start": {
+          "column": 68,
+          "index": 1203,
+          "line": 54
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/Skinventions-compose/app/src/main/java/com/skinvent/learningcomposable/MainActivity.kt"
+  "selectedFile": "/storage/emulated/0/Skinventions-compose/app/build.gradle.kts"
 }
