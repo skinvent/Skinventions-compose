@@ -38,19 +38,13 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(modifier: Modifier = Modifier) {
-    Text(text = "Skinvent Compose", modifier = modifier)
-}
-
-@Preview(showBackground = true)
 
 @Composable 
 fun itemer (){
     Row{
        Image(
             painter = painterResource(R.mipmap.ic_launcher),
-            contentDescription = "Contact profile picture",
+            contentDescription = "Hello",
         )
     }
     Column{
